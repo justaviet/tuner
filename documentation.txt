@@ -1,0 +1,23 @@
+Explore new music using youtube website
+Add the preferred media to the music playlist
+
+make music video directory if not exist
+make songs directory if not exist
+
+create log file from database directory
+    file count
+    library disk size
+    list of media titles
+
+download and conversion process thread
+infinite loop
+    download video playlist into ~/tuner/videos
+    if database file count has increased
+        create list from changes in video directory
+        iterate through list
+            output converted mp4 file to songs directory 
+    wait 30 minutes
+ 
+cloud process thread
+infinite loop
+    if 
